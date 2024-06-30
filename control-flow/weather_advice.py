@@ -1,18 +1,23 @@
-def main():
-  """Asks the user for weather conditions and provides clothing recommendations."""
-  weather = input("What's the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-  if weather.lower() == "sunny":
+if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
-  elif weather.lower() == "rainy":
+elif weather.lower() == "rainy":
     print("Don't forget your umbrella and a raincoat.")
-  elif weather.lower() == "cold":
+elif weather.lower() == "cold":
     print("Make sure to wear a warm coat and a scarf.")
-  else:
+else:
     print("Sorry, I don't have recommendations for this weather.")
 
-if __name__ == "__main__":
-  main()
+
+
+
+
+#def main():
+#  """Asks the user for weather conditions and provides clothing recommendations."""
+
+#if __name__ == "__main__":
+#  main()
   
   
 #input("What's the weather like today?(sunny/rainy/cold):")
