@@ -16,7 +16,7 @@ def main():
             # Prompt for and add an item
             pass
         elif choice == '2':
-            shopping_list.remove(1)
+            shopping_list.remove(0)
             # Prompt for and remove an item
             pass
         elif choice == '3':
