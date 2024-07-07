@@ -23,7 +23,7 @@ def main():
       converted_temperature = convert_to_celsius(temperature)
       print(f"{temperature:.2f} degrees Fahrenheit is equal to {converted_temperature:.2f} degrees Celsius.")
     else:
-      raise ValueError("Invalid temperature. Please enter a numeric value.")
+      raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
   except ValueError as e:
     print(f"Error: {e}")
 
