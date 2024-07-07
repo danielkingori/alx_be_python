@@ -12,17 +12,6 @@ def perform_operation(num1, num2, operation):
             return num1 / num2
     else:
         print("not applicable:Either use add, subtract, multiply, divide") 
-    
-    
-#    def add():
-#        return num1 + num2
-#    def subtract(num1, num2):
-#        return num1 - num2
-#    def multiply(num1, num2):
-#        return num1 * num2
-#    def divide(num1, num2): 
-#        return num1 / num2
-
 
 def main():
     print("Arithmetic Operations")
