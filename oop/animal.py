@@ -6,5 +6,18 @@ class Animal:
     
 #inheritance
 class Lion(Animal):
-    def __init__(self, name):
-        super().__init__(name)
+    def speak(self):
+        return f"{self.name} the lion roars"
+    
+class Elephant(Animal):
+    def speak(self):
+        return f"{self.name} the Elephant triumphs"
+    
+#polymorphism
+zoo = [
+    Lion("Simba"),
+    Elephant("Dumbo")
+]
+
+for animal in zoo:
+    print(animal.speak())
