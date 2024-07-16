@@ -43,3 +43,33 @@ print(Student1)
 #print(Student1.walk())
 print(Student1.enrol("Maths"))
 
+
+#Polymorphism - many forms of the methods
+
+#allows objects from different classes
+class Undergraduate(Student):
+    def __init__(self, name, age, student_id, major):
+        super().__init__(name, age, student_id)
+        self.major = major
+        
+    def enrol(self, course): #method overides from different class
+        if len(self.course) < 2: #if the courses are less than 2, we enrol if not we shouln't
+            return super().enrol(course)
+        else:
+            return f"Cannot enrol {self.name} in  the {self.course}"
+    def __str__(self):
+        return f"{self.name} {self.age} {self.student_id} {self.major}"
+
+Ungrad =  Undergraduate("Don", 20, 3, "Science")
+print(Ungrad)
+print(Ungrad.enrol("Chem"))
+print(Ungrad.enrol("Arts"))
+print(Ungrad.enrol("Doctor"))
+
+
+# def new_enrolment(student, course):
+#     return student.enrol(course)
+
+# #abstratction , not seing the logic
+# enroll = new_enrolment(Ungrad, "Spanish")
+# print(enroll)
