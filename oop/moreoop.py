@@ -24,3 +24,15 @@ point2 = Point(3,2.5)
 print(point2)
 del point2
 print(point2)
+
+#instance method , instance attributes
+def hello(self):
+    pass
+
+@classmethod
+def hello2(cls):
+    print(f"The value of cls is {cls}")
+
+#class methods - works with class attributes - work with class methods like count
+
+#@class method decorator, turns our class into a class method
