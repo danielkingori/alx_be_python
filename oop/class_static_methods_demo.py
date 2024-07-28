@@ -1,5 +1,5 @@
 class Calculator:
-    calculation_type = "Arithimetic Operations"
+    calculation_type = "Arithmetic Operations"
     # def __init__(self) -> None:
     #     pass
     
