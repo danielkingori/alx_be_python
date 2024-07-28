@@ -15,7 +15,7 @@ class Circle(Shape):
             
     def area(self):
         import math
-        return math.pi * (self.radius**2)
+        return math.pi * (self.radius** 2)
         
 rect = Rectangle(5,12)
 print(f"The area of the rectangle is : {rect.area()}")
