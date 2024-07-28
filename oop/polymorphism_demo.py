@@ -17,10 +17,10 @@ class Circle(Shape):
         import math
         return math.pi * (self.radius** 2)
         
-rect = Rectangle(5,12)
-print(f"The area of the rectangle is : {rect.area()}")
+# rect = Rectangle(5,12)
+# print(f"The area of the rectangle is : {rect.area()}")
     
-circ = Circle(3)
-print(f"The area of a circle is: {circ.area()}")
+# circ = Circle(3)
+# print(f"The area of a circle is: {circ.area()}")
  
     
