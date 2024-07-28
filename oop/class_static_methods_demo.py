@@ -12,9 +12,9 @@ class Calculator:
         print(f"Calculation type: {cls.calculation_type}")
         return a * b
 
-sum_result = Calculator.add(10,5)
-print(f"The sum is: {sum_result}")
+# sum_result = Calculator.add(10,5)
+# print(f"The sum is: {sum_result}")
 
-product_result = Calculator.multiply(10,5)
-print(f"The product is: {product_result}")
+# product_result = Calculator.multiply(10,5)
+# print(f"The product is: {product_result}")
     
